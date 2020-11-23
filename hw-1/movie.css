@@ -1,0 +1,94 @@
+{
+  box-sizing: border-box;
+}
+
+body { 
+  background-image: url("background.png"); 
+  font-family: sans-serif;
+  font: arial;
+  font-size: 12px;
+  text-align: center;
+  
+}
+.kontejner{
+  display: flex;
+  background-color: #EEEEEE;
+  width: 55%;
+  margin:auto;
+  box-shadow: 5px 5px #999999;
+  justify-content: flex-end;  
+}
+h1 {
+  font-size: 24pt;
+  font-family: sans-serif;
+  font: georgia;
+  font-weight: bold;
+  text-shadow: 3px 3px #999999;
+}
+.leva {
+  flex:4;
+  background-color: #EEEEEE; 
+
+    
+}
+.Logo{
+    background-image: url("rbg.png");
+    color:red;
+    font-weight: bold;
+    font-size: 48pt;
+    text-align: left;
+    
+
+}
+lista{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  box-shadow: 5px 5px #999999;
+  justify-content: flex-end;
+}
+.quotebubble{
+    width: 90%;
+    background-color: #ffffff;
+    font-size: 13pt;
+    font-family: serif;
+    border-radius: 12px;
+    border: 2px solid #cccccc;
+    padding:1em;
+    margin:5px;
+     float:right;
+}
+img{
+    vertical-align: middle;
+}
+.publication{
+ font-style: italic;   
+}
+.odgovor{
+    float:left;
+    margin-left: 5px;
+}
+.desna {  
+  flex:1;
+    font: arial;
+    font-size:12pt;
+  background-color: #A2B964;
+  text-align: left;
+  
+
+}
+dt{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+footer{
+    padding: 0.5em 0;
+    margin:auto;
+    background-color: #A2B964;
+    width:55%;
+}
+.html{
+    float: right;
+
+}
