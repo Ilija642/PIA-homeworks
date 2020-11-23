@@ -1,0 +1,81 @@
+﻿html,body{
+    height:100%;
+    width:100%;
+    font-size:18px;
+}
+.navbar{
+    background-color: #5D5C61;
+    padding: 1% 0;
+    font-size: 1.2em;
+   
+}
+.navbar-default .navbar-nav li a {
+     color: #d5d5d5;
+    
+}
+#home{
+    background: url(slika1.jpg) no-repeat center center fixed;
+    display:table;
+    height:100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    
+}
+button{
+    margin-top: 10px;
+     margin-bottom: 10px;
+}
+.landing-text{
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#quantity{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size:60pt;
+    font-weight: bold;
+    color:#5D5C61;
+    padding: 40px 0:
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+    font-weight:bold;
+        text-align: center;
+}
+#desno{
+        padding: 80px 0;
+        text-align: center;
+
+}
+.padding{
+    padding:80px 0;
+}
+.padding img{
+    width:100%;
+}
+footer{
+    width: 100%;
+    background-color: #5d5c61;
+    padding: 5% 5% 10% 5%;
+    color:#ffffff;
+}
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color:#fff;
+}
+.fa:hover {
+    color: #5d5c61;
+    text-decoration: none;
+}
+
